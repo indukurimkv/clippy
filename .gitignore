@@ -42,3 +42,6 @@ build/
 
 #ignore lib dir
 lib/
+
+#include clangd cache
+.cache/
