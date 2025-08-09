@@ -1,9 +1,0 @@
-23|191|4|3|7|4|10|6|3|7|4|4|6|7|
-#include <sys/types.h>
-std::ifstream cache_file;
-  cache_file.open(file_path);
-  if(cache_file.fail()){
-    std::cout << "Cache file failed to open" << std::endl;
-    return;
-  }
-  // Implement cache file read heretrueif record and clipboard clipôdin things new for Check     //
