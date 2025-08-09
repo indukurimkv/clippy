@@ -4,6 +4,7 @@ project(clippy)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 add_executable(${PROJECT_NAME} main.cpp)
+add_subdirectory(clip)
 
 target_include_directories(${PROJECT_NAME} PUBLIC clip)
-target_link_directories(${PROJECT_NAME} PUBLIC ${CMAKE_SOURCE_DIR}/lib)
+target_link_libraries(${PROJECT_NAME} PUBLIC clip)
